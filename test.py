@@ -50,7 +50,7 @@ if __name__ == "__main__":
     os.environ["TOKENIZERS_PARALLELISM"] = "true"
     ex=True
     while ex:
-        ai.speech_to_text()
+        ai.speech`_to_text()
         ## wake up
         if ai.wake_up(ai.text) is True:
             res = "Hello I am Dave the AI, what can I do for you?"
